@@ -1,0 +1,49 @@
+<html lang="pt-br">
+<head>
+  <title>Watch Online</title>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Assistir Online</h1>
+    </header>
+    <input type = "text" placeholder="pesquisar anime">
+    <img src = https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/03/free-anime-streaming-sites-to-watch-anime-online.jpg?ssl=1&quality=80&w=f>
+
+   
+    <p>Vinland Saga</p>
+    <button onclick="redirecionar('pg1')">Clique aqui para assistir</button>
+    <p>One Piece</p>
+    <button onclick="redirecionar('pg2')">Clique aqui para assistir</button>
+    <p>Fullmetal Alchemist</p>
+    <button onclick="redirecionar('pg3')">Clique aqui para assistir</button>
+    <p>Steins Gate</p>
+    <button onclick="redirecionar('pg4')">Clique aqui para assistir</button>
+  
+
+   
+  </body>
+ 
+  <script>  
+   
+    function redirecionar(pgesc) {
+  switch (pgesc) {
+    case 'pg1':
+      window.location.href = "sitewatchvinland.html";
+      break;
+    case 'pg2':
+      window.location.href = "sitewatchop.html";
+      break;
+    case 'pg3':
+      window.location.href = "sitewatchfma.html";
+      break;
+    case 'pg4':
+      window.location.href = "sitewatchsteins.html";
+      break;
+  }
+}
+
+   
+</script>
+ 
+</html>
