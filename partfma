@@ -1,0 +1,44 @@
+<html lang="pt-br">
+<head>
+  <title>Watch Online</title>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Assistir Online</h1>
+    </header>
+    <h2>Fullmetal Alchemist</h2>
+        <p> Anime sobre alquimia</p>
+    <img src = https://sm.ign.com/ign_br/tv/f/fullmetal-/fullmetal-alchemist-brotherhood-1_qzyx.jpg>
+    <main>
+      <section id="video-player">
+        <video id="video" controls>
+          <source src="video.mp4" type=video/mp4>
+        </video>
+      </section>
+      <section id="informacoes"></section>
+    
+      
+      </section>
+    </main>
+  </div>
+  </body>
+</html>
+</html>
+
+<script>
+
+const video = document.getElementById("video");
+
+//Função carregar video
+function carregarVideo(url){
+  video.src = url;
+  video.load();
+}
+
+const urlVideo = "https://rr14---sn-8p8v-bg0s.googlevideo.com/videoplayback?expire=1710282797&ei=rWfwZdiwIOjCy_sP_o2dkAk&ip=177.139.188.59&id=215932a7878cc5df&itag=22&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&mh=qS&mm=31&mn=sn-8p8v-bg0s&ms=au&mv=m&mvi=14&pl=24&susc=bl&eaua=Aaz2Nyfyfhw&mime=video/mp4&vprv=1&dur=1725.172&lmt=1562530829741492&mt=1710253524&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,dur,lmt&sig=AJfQdSswRQIgBvPR_HyTaF5BFgYu_DTvcjVsW2SSWfIL5HrtYXLzoTICIQD3ESURWKm5qJ_p-Ls8w6BmfKu7SjiqWPNLVg7o8jrSzw%3D%3D&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=APTiJQcwRQIhALQbGL8vDmb4uXp4DEGRisIfrz2JPNLysd5Lz5gf0IvZAiBJ6elxCOksItxys2bZM_dBZjh2Akh9hh1f05ao10srpA%3D%3D&cpn=Bz9reWoTiYhVbTNT&c=WEB_EMBEDDED_PLAYER&cver=1.20240305.00.00";
+
+//Carregar o vídeo na página
+carregarVideo(urlVideo);
+
+</script>
